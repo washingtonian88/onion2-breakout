@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "Onion 2 Breakout"
 Date ""
-Rev ""
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -110,17 +110,6 @@ F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.00mm" H 7350 4300 50  0001 C CN
 F 3 "" H 7350 4300 50  0000 C CNN
 	1    7350 4300
 	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 588E1A5D
-P 1300 1500
-F 0 "#PWR01" H 1300 1250 50  0001 C CNN
-F 1 "GND" H 1300 1350 50  0000 C CNN
-F 2 "" H 1300 1500 50  0000 C CNN
-F 3 "" H 1300 1500 50  0000 C CNN
-	1    1300 1500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR02
@@ -377,7 +366,6 @@ Text GLabel 3600 2050 2    60   Input ~ 0
 D2+
 Text GLabel 3600 2300 2    60   Input ~ 0
 D2-
-NoConn ~ 1400 1000
 NoConn ~ 3500 1000
 NoConn ~ 3200 4650
 NoConn ~ 3200 4550
@@ -588,4 +576,18 @@ Wire Wire Line
 	7550 3300 7650 3300
 Wire Wire Line
 	7650 3300 7650 3550
+NoConn ~ 1300 1500
+$Comp
+L GND #PWR?
+U 1 1 58E9570A
+P 1400 1000
+F 0 "#PWR?" H 1400 750 50  0001 C CNN
+F 1 "GND" H 1400 850 50  0000 C CNN
+F 2 "" H 1400 1000 50  0000 C CNN
+F 3 "" H 1400 1000 50  0000 C CNN
+	1    1400 1000
+	0    -1   -1   0   
+$EndComp
+Text Notes 650  800  0    60   ~ 0
+This is a micro-USB \nconnector. Pin 5 is\nGND and 4 is shield.
 $EndSCHEMATC
