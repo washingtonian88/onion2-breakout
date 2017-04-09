@@ -24,5 +24,19 @@ Found an issue with the USB connector schematic (pins 4 and 5 were switched). I 
 ### ToDo
 * ~~Modify footprint of micro USB connector to allow larger mounting feet to properly mount.~~
 * ~~Verify USB host functionality.~~ Works!
-* ... ?
-* Profit!
+```
+                      * ... ?
+                      * Profit!
+                __
+             .-'  |
+            /   <\|
+           /     \'
+           |_.- o-o
+           / C  -._)\
+          /',        |
+         |   `-,_,__,'
+         (,,)====[_]=|
+           '.   ____/
+            | -|-|_
+            |____)_)    
+```
