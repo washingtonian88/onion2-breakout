@@ -3,7 +3,7 @@
   (general
     (links 62)
     (no_connects 0)
-    (area 79.680999 113.208999 119.455001 165.175001)
+    (area 76.933667 111.721 121.948334 171.159001)
     (thickness 1.6)
     (drawings 5)
     (tracks 201)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -794,7 +794,7 @@
     )
   )
 
-  (module Connect:USB_Micro-B (layer F.Cu) (tedit 5543E447) (tstamp 588E2A43)
+  (module "USB-micro -oshpark:USB_Micro-B" (layer F.Cu) (tedit 58EA5BE7) (tstamp 588E2A43)
     (at 99.568 117.856 180)
     (descr "Micro USB Type B Receptacle")
     (tags "USB USB_B USB_micro USB_OTG")
@@ -825,10 +825,10 @@
       (net 45 "Net-(P1-Pad4)"))
     (pad 5 smd rect (at 1.3 -1.35 270) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 6 thru_hole oval (at -2.5 -1.35 270) (size 0.95 1.25) (drill oval 0.55 0.85) (layers *.Cu *.Mask))
-    (pad 6 thru_hole oval (at 2.5 -1.35 270) (size 0.95 1.25) (drill oval 0.55 0.85) (layers *.Cu *.Mask))
-    (pad 6 thru_hole oval (at -3.5 1.35 270) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask))
-    (pad 6 thru_hole oval (at 3.5 1.35 270) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask))
+    (pad 6 thru_hole oval (at -2.5 -1.35 270) (size 0.95 1.15) (drill 0.75) (layers *.Cu *.Mask))
+    (pad 6 thru_hole oval (at 2.5 -1.35 270) (size 0.95 1.15) (drill 0.75) (layers *.Cu *.Mask))
+    (pad 6 thru_hole oval (at -3.5 1.35 270) (size 1.55 1.25) (drill 1.2) (layers *.Cu *.Mask))
+    (pad 6 thru_hole oval (at 3.5 1.35 270) (size 1.55 1.25) (drill 1.2) (layers *.Cu *.Mask))
   )
 
   (gr_text "Omega 2 Breakout - Rev 2" (at 100.076 163.322) (layer B.SilkS)
