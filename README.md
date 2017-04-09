@@ -14,9 +14,9 @@ This is my first attempt at designing a PCB. I decided to use KiCAD due to mild-
 ### Rev 1 ORDERED!
 Bought all of the components on eBay minus the 2.54mm 1x16 pin headers for ~$40 USD to build 10 boards. Here's to hoping for a strong tail wind for the boat. For the first round (Rev. 1) I ordered 3 boards from OSHPark.com (https://oshpark.com/shared_projects/boUh3Ezt) for $16 shipped.
 
-![alt text](http://i.imgur.com/dsBOzBy.jpg "Bare board from OSH Park")
-![alt text](http://i.imgur.com/Xi92FQX.jpg "A sky-wire was needed to connect the microUSB shield to GND due to the schematic being wrong")
-![alt text](http://i.imgur.com/s2Aogm2.jpg "It's working!")
+![alt text](https://github.com/washingtonian88/onion2-breakout/blob/master/photos/IMG_20170408_164927.jpg?raw=true "Bare board from OSH Park")
+![alt text](https://github.com/washingtonian88/onion2-breakout/blob/master/photos/IMG_20170408_164951.jpg?raw=true "A sky-wire was needed to connect the microUSB shield to GND due to the schematic being wrong")
+![alt text](https://github.com/washingtonian88/onion2-breakout/blob/master/photos/IMG_20170408_164934.jpg?raw=true "It's working!")
 ---
 ### Rev 2
 Found an issue with the USB connector schematic (pins 4 and 5 were switched). I have corrected this on the schematic and board layout. I also found the clearance to be too tight for the USB-A connector and the onion board. I moved the connector down a bit to allow for more clearance. I confirmed the seral communication via the CH340G chip and confirmed the USB host abilities via the USB A connector.
