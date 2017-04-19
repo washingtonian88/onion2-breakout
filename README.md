@@ -19,7 +19,7 @@ Bought all of the components on eBay minus the 2.54mm 1x16 pin headers for ~$40 
 ![alt text](https://github.com/washingtonian88/onion2-breakout/blob/master/photos/IMG_20170408_164934.jpg?raw=true "It's working!")
 ---
 ### Rev 2
-Found an issue with the USB connector schematic (pins 4 and 5 were switched). I have corrected this on the schematic and board layout. I also found the clearance to be too tight for the USB-A connector and the onion board. I moved the connector down a bit to allow for more clearance. I confirmed the seral communication via the CH340G chip and confirmed the USB host abilities via the USB A connector.
+Found an issue with the USB connector schematic (pins 4 and 5 were switched). I have corrected this on the schematic and board layout. I also found the clearance to be too tight for the USB-A connector and the onion board. I moved the connector down a bit to allow for more clearance. I confirmed the seral communication via the CH340G chip and confirmed the USB host abilities via the USB A connector. Rev. 2 has been uploaded to OSHPark.com (https://oshpark.com/shared_projects/nRecWv9b).
 
 ### ToDo
 * ~~Modify footprint of micro USB connector to allow larger mounting feet to properly mount.~~
