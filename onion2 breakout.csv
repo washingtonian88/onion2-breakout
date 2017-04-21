@@ -1,0 +1,13 @@
+Id,Designator,Package,Quantity,Designation
+1,U1,SO-16-N,1,CH340G
+2,"C1,C2",C_1206_HandSoldering,2,22pF
+3,C3,C_1206_HandSoldering,1,100uF
+4,C4,C_1206_HandSoldering,1,10uF
+5,C5,C_1206_HandSoldering,1,0.1uF
+6,P2,USB_A,1,USB_B
+7,"P3,P6",Pin_Header_Straight_1x16_Pitch2.54mm,2,CONN_01X16
+8,"P4,P5",Pin_Header_Straight_1x16_Pitch2.00mm,2,CONN_01X16
+9,Y1,Crystal_SMD_5032-2pin_5.0x3.2mm,1,12MHz
+10,U2,SOT-223,1,AP1117
+11,P1,USB_Micro-B,1,USB_B
+12,PCB,"PCB Board 1.57""x2.05",1,PCB
